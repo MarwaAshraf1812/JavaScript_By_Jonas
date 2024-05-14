@@ -1,6 +1,5 @@
 /* Write your code below. Good luck! 🙂 */
 
-
 let massMark = 78;
 let heightMark = 1.69;
 
