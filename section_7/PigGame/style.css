@@ -31,6 +31,10 @@ body {
     background-color: rgb(135, 54, 135);
 }
 
+.player--winner {
+    background-color: rgb(236, 45, 236);
+}
+
 .name {
     font-size: 2rem;
     margin: 0;
