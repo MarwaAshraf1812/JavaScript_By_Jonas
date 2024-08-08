@@ -204,3 +204,4 @@ function spellWord(word) {
     console.log(...word);
 }
 spellWord('JavaScript')
+
