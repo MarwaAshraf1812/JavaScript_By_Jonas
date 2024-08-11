@@ -109,24 +109,31 @@ score to reactScore variable in one line.
 which can convert the array to a structure object.*/
 
 
-const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]]
-console.log(name, skills, jsScore, reactScore)
+// const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]]
+// console.log(name, skills, jsScore, reactScore)
 
-console.log(name, skills, jsScore, reactScore);
+// console.log(name, skills, jsScore, reactScore);
 
-function convertArrayToObject(array) {
-    const obj = {}
-    array.forEach(([name, skills, scores]) =>
-    {
-        obj[name] = {skills, scores}
-    })
-    return obj
-}
+// function convertArrayToObject(array) {
+//     const obj = {}
+//     array.forEach(([name, skills, scores]) =>
+//     {
+//         obj[name] = {skills, scores}
+//     })
+//     return obj
+// }
 
-const students = [
-    ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]],
-    ['John', ['HTM', 'CSS', 'JS', 'React'], [85, 80, 85, 80]]
-  ]
+// const students = [
+//     ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]],
+//     ['John', ['HTM', 'CSS', 'JS', 'React'], [85, 80, 85, 80]]
+//   ]
 
-console.log(convertArrayToObject(students))
+// console.log(convertArrayToObject(students))
 
+// const url = 'https://restcountries.com/v2/all' // countries api
+// fetch(url)
+//   .then(response => response.json()) // accessing the API data as JSON
+//   .then(data => {
+//     console.log(data)
+//   })
+//   .catch(error => console.error(error)) // handling error if something wrong happens
